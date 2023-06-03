@@ -27,7 +27,7 @@ function Home() {
                     <Movie
                         key={movie.id}
                         coverImage={getImageUrl(poster_path)} title={movie.title}
-                        date={release_date}
+                        date={movie.release_date}
                         summary={movie.overview}
                     />
                 ))}
